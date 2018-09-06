@@ -1,0 +1,17 @@
+.block-data {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
+  .number {
+    color: #4e8d8d;
+    font-size: 8rem;
+    font-weight: 600;
+    -webkit-text-stroke: 0.25rem #ffa938;
+    margin-bottom: unset;
+  }
+
+  p {
+    color: #ffffff;
+    font-size: 1rem;
+  }
+}

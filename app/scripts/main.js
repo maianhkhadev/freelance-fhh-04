@@ -15,6 +15,13 @@ document.addEventListener('DOMContentLoaded', function() {
   if(page === null) {
     return
   }
+
+  $('.section-01 .slick').slick({
+    dots: false,
+    arrows: false,
+    vertical: true,
+    verticalSwiping: true
+  })
 })
 
 // PAGE BROCHURE

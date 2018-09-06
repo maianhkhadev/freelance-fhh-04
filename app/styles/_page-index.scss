@@ -1,4 +1,98 @@
 .page-index {
 
-  
+  .section-01 {
+    background-color: #4e8d8d;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+
+    .slick {
+
+      .slide {
+        position: relative;
+        background-image: url('/images/page-index/im-01.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 50%;
+
+        .slide-content {
+          position: absolute;
+          bottom: 0;
+          background-color: rgba(#ffffff, 0.75);
+          padding: 3rem 2rem;
+
+          .slide-title {
+            color: #0f5831;
+            font-size: 2.5rem;
+
+            span {
+              display: inline-block;
+              color: #ffffff;
+              background-color: #fbaa3c;
+              font-weight: 700;
+              text-transform: uppercase;
+              padding: 0.125rem 1rem;
+            }
+          }
+
+          p {
+            color: #555555;
+            font-size: 0.875rem;
+            margin-bottom: unset;
+          }
+        }
+      }
+    }
+  }
+
+  .section-02 {
+    background-color: #4e8d8d;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+
+
+  }
+
+  .section-03 {
+    position: relative;
+    background-color: #ffa938;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    overflow: hidden;
+
+    .section-header {
+      position: relative;
+      text-align: center;
+      margin-bottom: 6.25rem;
+      z-index: 1000;
+
+      .section-title {
+        color: #ffffff;
+        font-size: 3rem;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    }
+
+    .section-content {
+      position: relative;
+      z-index: 1000;
+    }
+
+    .deco-01 {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 48rem;
+      height: auto;
+    }
+  }
+
+  .section-04 {
+    background-color: #4e8d8d;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+
+  }
 }
