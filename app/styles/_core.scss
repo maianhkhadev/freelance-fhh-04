@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Montserrat:400,500,600,700');
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  font-size: 16px;
+
+  @media screen and (min-width: 600px) and (max-width: 1200px) {
+    font-size: 15px;
+  }
+
+  @media screen and (min-width: 350px) and (max-width: 600px) {
+    font-size: 14px;
+  }
+
+  @media screen and (max-width: 350px) {
+    font-size: 12px;
+  }
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+.container {
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+}
+
+.unscrollable {
+  overflow-y: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn-sin {
+  color: #ffffff;
+  background-color: #FBAA3C;
+  border-color: #FBAA3C;
+
+  &:hover {
+    color: #ffffff;
+    background-color: darken(#FBAA3C, 15%);
+    border-color: darken(#FBAA3C, 15%);
+  }
+  &.focus, &:focus {
+    box-shadow: 0 0 0 .2rem rgba(#FBAA3C, 0.5);
+  }
+}
