@@ -1,4 +1,58 @@
 .block-question {
+  margin-bottom: 3.5rem;
 
-  
+  &:last-child {
+    margin-bottom: unset;
+  }
+
+  .row {
+
+    @media screen and (min-width: 1200px) {
+      margin: 0;
+    }
+
+    .col-xl-6 {
+
+      @media screen and (min-width: 1200px) {
+        padding: 0;
+      }
+    }
+  }
+
+  .thumbnail {
+    background-color: #d7d7d7;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media screen and (min-width: 1200px) {
+      height: 100%;
+    }
+  }
+
+  .block-content {
+    background-color: #ffffff;
+    padding: 2.5rem 4rem;
+
+    .block-title {
+      color: #003333;
+      font-size: 1.5rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+    }
+
+    .line {
+      width: 3.5rem;
+      height: 0.5rem;
+      background-color: #ffaa38;
+      margin-bottom: 3.25rem;
+    }
+
+    p {
+      color: #989898;
+      font-size: 1rem;
+      margin-bottom: 3.25rem;
+    }
+  }
 }

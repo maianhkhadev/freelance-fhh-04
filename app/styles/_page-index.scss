@@ -50,7 +50,15 @@
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
 
-
+    .section-footer {
+      padding-top: 2.5rem;
+      
+      .note {
+        color: #ffffff;
+        font-size: 1.125rem;
+        text-align: center;
+      }
+    }
   }
 
   .section-03 {
@@ -88,11 +96,25 @@
     }
   }
 
-  .section-04 {
+  .section-04, .section-07 {
     background-color: #4e8d8d;
     padding-top: 5rem;
     padding-bottom: 5rem;
 
 
+  }
+
+  .section-05 {
+    background-color: #4e8d8d;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+
+  }
+
+  .section-06 {
+    background-color: #003333;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 }
