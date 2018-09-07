@@ -17,10 +17,21 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   $('.section-01 .slick').slick({
-    dots: false,
+    dots: true,
     arrows: false,
     vertical: true,
     verticalSwiping: true
+  })
+
+  $('.section-06 .slick').slick({
+    dots: true,
+    arrows: false,
+    slidesToShow: 3,
+  })
+
+  $('.section-08 .slick').slick({
+    dots: false,
+    arrows: true,
   })
 })
 
