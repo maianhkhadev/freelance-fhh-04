@@ -45,3 +45,33 @@
     }
   }
 }
+
+.slick-arrow {
+  width: 2rem;
+  height: 3rem;
+  background-color: rgba(#ffffff, 0.25);
+
+  &::before {
+    font-family: unset;
+  }
+
+  &:hover {
+    background-color: rgba(#ffffff, 0.5);
+  }
+}
+
+.slick-prev {
+  left: -2.5rem;
+  
+  &::before {
+    content: url('/images/slick-arrow-prev.png');
+  }
+}
+
+.slick-next {
+  right: -2.5rem;
+
+  &::before {
+    content: url('/images/slick-arrow-next.png');
+  }
+}
