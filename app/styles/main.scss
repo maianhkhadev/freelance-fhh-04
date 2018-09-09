@@ -5,10 +5,25 @@
 @import "layout-default";
 
 @import "page-index";
+@import "page-brochures";
+@import "page-exhibit";
+@import "page-thanks";
+@import "page-highlights";
+@import "page-news";
 
+@import "dock-back-to-header";
+@import "dock-socials";
+
+@import "block-breadcrumb";
+@import "block-brochure";
 @import "block-data";
 @import "block-feature";
+@import "block-highlight";
 @import "block-navi-call-actions";
 @import "block-navi-i18n";
+@import "block-news-horizontal";
+@import "block-news-small-item";
+@import "block-news";
+@import "block-pagination";
 @import "block-question";
 @import "block-testimonial";

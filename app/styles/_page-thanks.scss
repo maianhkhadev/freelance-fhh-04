@@ -1,0 +1,21 @@
+#page-thanks {
+
+  .page-content {
+
+    .block-socials {
+      text-align: center;
+
+      .social-link {
+        border-radius: unset;
+        padding: 0.875rem;
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+
+        img {
+          width: 1.75rem;
+          height: auto;
+        }
+      }
+    }
+  }
+}

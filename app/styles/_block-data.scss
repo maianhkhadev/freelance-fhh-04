@@ -1,17 +1,30 @@
 .block-data {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  
+
+  @media screen and (min-width: 1200px) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @media screen and (max-width: 1200px) {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
   .number {
     color: #4e8d8d;
-    font-size: 8rem;
+    font-size: 6.25rem;
     font-weight: 600;
     -webkit-text-stroke: 0.25rem #ffa938;
     margin-bottom: unset;
+
+    @media screen and (max-width: 600px) {
+      font-size: 5rem;
+    }
   }
 
   p {
     color: #ffffff;
     font-size: 1rem;
+    margin-bottom: unset;
   }
 }

@@ -1,0 +1,19 @@
+.dock-socials {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 5000;
+
+  a {
+    display: block;
+    border-color: #ffffff;
+    border-radius: unset;
+    padding: 0.5rem;
+
+    img {
+      width: 1.5rem;
+      height: auto;
+    }
+  }
+}

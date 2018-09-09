@@ -1,9 +1,65 @@
-.page-index {
+#page-index {
+
+  .section-01, .section-02, .section-04, .section-05, .section-07, .section-08 {
+    background-color: #4e8d8d;
+  }
+
+  .section-06, .section-09 {
+    background-color: #003333;
+  }
+
+  .section-01, .section-02 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .section-03, .section-04, .section-05, .section-06, .section-07, .section-08, .section-09 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .section-03, .section-05, .section-06, .section-08, .section-09 {
+
+    .section-header {
+      position: relative;
+      text-align: center;
+      margin-bottom: 6.25rem;
+      z-index: 1000;
+
+      .section-title {
+        font-size: 3rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: unset;
+
+        @media screen and (max-width: 600px) {
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+
+  .section-03, .section-06 {
+
+    .section-header {
+
+      .section-title {
+        color: #ffffff;
+      }
+    }
+  }
+
+  .section-05, .section-08, .section-09 {
+
+    .section-header {
+
+      .section-title {
+        color: #ffaa38;
+      }
+    }
+  }
 
   .section-01 {
-    background-color: #4e8d8d;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
 
     .slick {
 
@@ -15,15 +71,29 @@
         background-size: cover;
         padding-top: 50%;
 
+        @media screen and (max-width: 1200px) {
+          padding-top: 0;
+        }
+
         .slide-content {
           position: absolute;
           bottom: 0;
           background-color: rgba(#ffffff, 0.75);
           padding: 3rem 2rem;
 
+          @media screen and (max-width: 1200px) {
+            position: relative;
+            padding: 2rem;
+            margin-top: 15rem;
+          }
+
           .slide-title {
             color: #0f5831;
             font-size: 2.5rem;
+
+            @media screen and (max-width: 1200px) {
+              margin-bottom: 1rem;
+            }
 
             span {
               display: inline-block;
@@ -38,7 +108,10 @@
           p {
             color: #555555;
             font-size: 0.875rem;
-            margin-bottom: unset;
+
+            @media screen and (min-width: 600px) {
+              margin-bottom: unset;
+            }
           }
         }
       }
@@ -46,12 +119,13 @@
   }
 
   .section-02 {
-    background-color: #4e8d8d;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
 
     .section-footer {
       padding-top: 2.5rem;
+
+      @media screen and (max-width: 1200px) {
+        padding-bottom: 2.5rem;
+      }
 
       .note {
         color: #ffffff;
@@ -64,22 +138,10 @@
   .section-03 {
     position: relative;
     background-color: #ffa938;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
     overflow: hidden;
 
-    .section-header {
-      position: relative;
-      text-align: center;
-      margin-bottom: 6.25rem;
-      z-index: 1000;
-
-      .section-title {
-        color: #ffffff;
-        font-size: 3rem;
-        font-weight: 700;
-        text-transform: uppercase;
-      }
+    @media screen and (max-width: 1200px) {
+      padding-bottom: 24rem;
     }
 
     .section-content {
@@ -93,41 +155,63 @@
       bottom: 0;
       width: 48rem;
       height: auto;
+
+      @media screen and (min-width: 600px) and (max-width: 1200px) {
+        width: 30rem;
+      }
+
+      @media screen and (max-width: 600px) {
+        width: 100%;
+      }
     }
   }
 
-  .section-04, .section-07, .section-08 {
-    background-color: #4e8d8d;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+  .section-04 {
+
   }
 
   .section-05 {
-    background-color: #4e8d8d;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    position: relative;
+    padding-bottom: 24rem;
+    overflow: hidden;
 
+    @media screen and (min-width: 600px) and (max-width: 1200px) {
+      padding-bottom: 26.5rem;
+    }
 
+    .section-content {
+
+      .slick {
+
+        .block-news {
+          margin-left: 0.5rem;
+          margin-right: 0.5rem;
+
+          &:focus {
+            outline: unset;
+          }
+        }
+      }
+    }
+
+    .deco-01 {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 48rem;
+      height: auto;
+
+      @media screen and (min-width: 600px) and (max-width: 1200px) {
+        width: 30rem;
+      }
+
+      @media screen and (max-width: 600px) {
+        width: 100%;
+      }
+    }
   }
 
   .section-06 {
-    background-color: #003333;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-
-    .section-header {
-      position: relative;
-      text-align: center;
-      margin-bottom: 6.25rem;
-      z-index: 1000;
-
-      .section-title {
-        color: #ffffff;
-        font-size: 3rem;
-        font-weight: 700;
-        text-transform: uppercase;
-      }
-    }
 
     .section-content {
 
@@ -179,22 +263,20 @@
     }
   }
 
+  .section-07 {
+
+  }
+
   .section-08 {
     position: relative;
     padding-bottom: 24rem;
 
-    .section-header {
-      position: relative;
-      text-align: center;
-      margin-bottom: 6.25rem;
-      z-index: 1000;
+    @media screen and (min-width: 600px) and (max-width: 1200px) {
+      padding-bottom: 17rem;
+    }
 
-      .section-title {
-        color: #ffaa38;
-        font-size: 3rem;
-        font-weight: 700;
-        text-transform: uppercase;
-      }
+    @media screen and (max-width: 600px) {
+      padding-bottom: 10rem;
     }
 
     .section-content {
@@ -213,22 +295,50 @@
   }
 
   .section-09 {
-    background-color: #003333;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
 
     .section-header {
-      position: relative;
-      text-align: center;
-      margin-bottom: 6.25rem;
-      z-index: 1000;
+      margin-bottom: 2.5rem;
 
-      .section-title {
-        color: #fbaa3c;
-        font-size: 3rem;
-        font-weight: 700;
+      h3 {
+        color: #ffaa38;
+        font-size: 2.5rem;
+        font-weight: 500;
         text-transform: uppercase;
+        margin-bottom: unset;
+
+        @media screen and (max-width: 600px) {
+          font-size: 2rem;
+        }
       }
+    }
+
+    .section-content {
+
+      .form-control {
+        height: auto;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        border-radius: unset;
+        padding: 0.75rem 1.25rem;
+
+        @media screen and (max-width: 1200px) {
+          margin-bottom: 1rem;
+        }
+      }
+
+      .btn-sin {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        border-radius: unset;
+        padding: 0.75rem 1.25rem;
+      }
+    }
+
+    .section-footer {
+      width: 10rem;
+      height: 0.25rem;
+      background-color: #ffaa38;
+      margin: 5rem auto;
     }
   }
 }

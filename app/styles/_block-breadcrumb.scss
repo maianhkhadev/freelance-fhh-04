@@ -1,0 +1,38 @@
+.block-breadcrumb {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: unset;
+  margin-bottom: unset;
+
+  .breadcrumb-item {
+    color: #464646;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding-left: 0.5rem;
+
+    &::before {
+      content: "\203A";
+      display: inline-block;
+      color: #464646;
+      padding-right: 0.5rem;
+    }
+
+    &:first-child {
+      padding-left: unset;
+
+      &::before {
+        content: '';
+      }
+    }
+
+    a {
+      color: #464646;
+    }
+
+    &.active {
+      color: #464646;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.dock-back-to-header {
+  position: fixed;
+  bottom: 2.5rem;
+  right: -8rem;
+  transition: all 0.25s ease-in;
+  z-index: 5000;
+
+  &.visible {
+    right: 0;
+  }
+
+  button {
+    display: block;
+    border-color: #ffffff;
+    border-radius: unset;
+    padding: 1rem;
+
+    img {
+      width: 1.75rem;
+      height: auto;
+    }
+  }
+}

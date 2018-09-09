@@ -1,0 +1,38 @@
+.block-brochure {
+
+  @media screen and (max-width: 600px) {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    margin-bottom: 4rem;
+  }
+
+  .thumbnail {
+    position: relative;
+    background-image: url('/images/thumbnail.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100%;
+    margin-bottom: 2rem;
+
+    .call-to-download {
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      border-radius: unset;
+      padding: 0.75rem 1.25rem;
+    }
+  }
+
+  .block-title {
+    color: #caeaf6;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: unset;
+  }
+}
