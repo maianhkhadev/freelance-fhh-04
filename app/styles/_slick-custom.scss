@@ -62,9 +62,9 @@
 
 .slick-prev {
   left: -2.5rem;
-  
+
   &::before {
-    content: url('/images/slick-arrow-prev.png');
+    content: url('../images/slick-arrow-prev.png');
   }
 }
 
@@ -72,6 +72,6 @@
   right: -2.5rem;
 
   &::before {
-    content: url('/images/slick-arrow-next.png');
+    content: url('../images/slick-arrow-next.png');
   }
 }
