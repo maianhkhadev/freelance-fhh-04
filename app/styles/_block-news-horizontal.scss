@@ -72,7 +72,7 @@
     }
   }
 
-  &:first-child {
-    border-top: 0.0625rem solid #ff8b38;
+  &:last-child {
+    border-bottom-color: transparent;
   }
 }
