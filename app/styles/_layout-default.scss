@@ -1,10 +1,10 @@
 .layout-default {
 
-  header {
+  header.header-01 {
     position: relative;
     background-color: #4e8d8d;
     padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+
 
     .section-01 {
       margin-bottom: 2.5rem;
@@ -44,6 +44,13 @@
         }
       }
     }
+  }
+
+  header.header-02 {
+    position: sticky;
+    top: 0;
+    padding-bottom: 2.5rem;
+    z-index: 4000;
 
     .section-02 {
 

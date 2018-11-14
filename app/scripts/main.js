@@ -37,6 +37,8 @@ document.addEventListener('DOMContentLoaded', function() {
     arrows: false,
     vertical: true,
     verticalSwiping: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 1200,
@@ -57,6 +59,8 @@ document.addEventListener('DOMContentLoaded', function() {
     dots: true,
     arrows: false,
     slidesToShow: 3,
+    autoplay: true,
+    autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 1200,
@@ -72,15 +76,48 @@ document.addEventListener('DOMContentLoaded', function() {
     ]
   })
 
+  $('.section-07 .slick').slick({
+    dots: false,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  })
+
   $('.section-08 .slick').slick({
     dots: false,
     arrows: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 600,
         settings: {
           dots: true,
           arrows: false,
+        }
+      }
+    ]
+  })
+
+  $('.section-09 .slick').slick({
+    dots: false,
+    arrows: false,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+        }
+      }, {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
         }
       }
     ]
